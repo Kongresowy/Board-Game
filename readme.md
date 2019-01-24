@@ -1,6 +1,5 @@
 
-Pawel "Kongresowy" Sworobowicz Portfolio Webpage.
-Made in React.js (React Router, React Transition Group), styled by SCSS and boundled by WebPack.
+TWOM Board Game: "The Book of Scripts" App.
 
-https://kongresowy.github.io/React-PS-Portfolio/#/
+In Progress.
 
