@@ -91,7 +91,7 @@ module.exports = [
     },
     {
         id: "s7",
-        text: "W środkowej części kanałów natrafiamy na zamaskowany gruzami kabel telefoniczny. W zamierzeniu miał łączyć dowództwo garnizonu w śródmieściu z ogniskami oporu za rzeką. Nie udało się. Połączenie zostało wedle plotek przerwane przez sabotażystę, któ©ego ciało być może mamy właśnie przez sobą. Do mężczyzny strzelano kilkakrotnie z bliska, zupełnie jak do tarczy treningowej. Dookoła ciał jest jednak więcej. Zaścielają cały korytarz. Mundury łącznościowców, sanitariuszy, żołnierzy. Mundury obu stron, wszyscy tak samo martwi, ograbieni ze wszystkiego, co miało jakąkolwiek wartość. Przechodzimy obok nieruchomych zwłok i zamykamy im otwarte oczy. Przynajmniej tyle możemy zrobić - zdobyć się na ostatni ludzki gest.",
+        text: "W środkowej części kanałów natrafiamy na zamaskowany gruzami kabel telefoniczny. W zamierzeniu miał łączyć dowództwo garnizonu w śródmieściu z ogniskami oporu za rzeką. Nie udało się. Połączenie zostało wedle plotek przerwane przez sabotażystę, którego ciało być może mamy właśnie przez sobą. Do mężczyzny strzelano kilkakrotnie z bliska, zupełnie jak do tarczy treningowej. Dookoła ciał jest jednak więcej. Zaścielają cały korytarz. Mundury łącznościowców, sanitariuszy, żołnierzy. Mundury obu stron, wszyscy tak samo martwi, ograbieni ze wszystkiego, co miało jakąkolwiek wartość. Przechodzimy obok nieruchomych zwłok i zamykamy im otwarte oczy. Przynajmniej tyle możemy zrobić - zdobyć się na ostatni ludzki gest.",
         rule: "",
         show1: false,
         transText1: "",

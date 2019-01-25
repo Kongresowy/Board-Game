@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter, HashRouter, Route, Link, NavLink, Switch} from "react-router-dom";
 import KanalyScripts from './data.js';
 
-class TRANS extends React.Component {
+class Trans extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -12,7 +12,7 @@ class TRANS extends React.Component {
     };
     render() {
         if (this.props.show === true) {
-            return <div onClick={this.handleClick2}>{this.props.transText}</div>
+            return <div className="trans-div" onClick={this.handleClick2}>{this.props.transText}</div>
         } else {
             return null;
         }
@@ -61,10 +61,11 @@ class MainContent extends React.Component {
         if (this.state.element === true) {
             return (
                 <div className="input-class">
+                    <div className="main-content-title">CZĘŚĆ I: KANAŁY</div>
                     <h2>WYSZUKAJ SKRYPT :</h2>
                     <form>
                         <input type="number" ref={input => { this.input = input; }} />
-                        <button onClick={this.handleClick}>Go!</button>
+                        <button onClick={this.handleClick}>Idź!</button>
                     </form>
                     <Link to="/menu">WRÓĆ DO MENU</Link>
                 </div>
@@ -75,10 +76,10 @@ class MainContent extends React.Component {
                     <h2>{this.state.itemDetail.id}</h2>
                     <p>{this.state.itemDetail.text}</p>
                     <p>{this.state.itemDetail.rule}</p>
-                    <TRANS show={this.state.itemDetail.show1} changeNum={this.state.itemDetail.changeTo1} clickMethod={this.changeClick} transText={this.state.itemDetail.transText1} />
-                    <TRANS show={this.state.itemDetail.show2} changeNum={this.state.itemDetail.changeTo2} clickMethod={this.changeClick} transText={this.state.itemDetail.transText2} />
-                    <TRANS show={this.state.itemDetail.show3} changeNum={this.state.itemDetail.changeTo3} clickMethod={this.changeClick} transText={this.state.itemDetail.transText3} />
-                    <div onClick={this.resetClick}>{this.state.itemDetail.reset}</div>
+                    <Trans show={this.state.itemDetail.show1} changeNum={this.state.itemDetail.changeTo1} clickMethod={this.changeClick} transText={this.state.itemDetail.transText1} />
+                    <Trans show={this.state.itemDetail.show2} changeNum={this.state.itemDetail.changeTo2} clickMethod={this.changeClick} transText={this.state.itemDetail.transText2} />
+                    <Trans show={this.state.itemDetail.show3} changeNum={this.state.itemDetail.changeTo3} clickMethod={this.changeClick} transText={this.state.itemDetail.transText3} />
+                    <div className="trans-div" onClick={this.resetClick}>{this.state.itemDetail.reset}</div>
                     <Link to="/menu">WRÓĆ DO MENU</Link>
                 </div>
             );
@@ -90,7 +91,6 @@ class MainContentPartI extends React.Component {
     render() {
         return (
             <div>
-                <h1 className="main-content-title">CZĘŚĆ I: KANAŁY</h1>
                 <MainContent scripts={KanalyScripts}></MainContent>
             </div>
         );
@@ -139,7 +139,7 @@ class Menu extends React.Component {
     render() {
         return(
             <div className="menu">
-                <Link to="/scripts">CZEŚĆ I: KANAŁY</Link>
+                <Link to="/scripts">CZĘŚĆ I: KANAŁY</Link>
                 <Link to="/rules">OMÓWIENIE ZASAD</Link>
             </div>
         );
@@ -149,7 +149,7 @@ class Menu extends React.Component {
 class MainTitle extends React.Component {
     render() {
         return (
-            <div className="main-title"><Link to="/menu"></Link></div>
+            <div className="main-title"><Link to="/menu"><span>OPOWIEŚCI ZE ZNISZCZONEGO MIASTA</span></Link></div>
         );
     }
 }
