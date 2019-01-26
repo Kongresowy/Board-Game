@@ -32,7 +32,7 @@ module.exports = [
     {
         id: "s3",
         text: "Przemycanie papierosów przez oblężone miasto to dla Bobana chleb powszedni. Mężczyzna trafił na nas w ciemnym kanale. Ma zniszczoną nałogiem twarz i krótko ścięte włosy. Szczerbaty uśmiech nie należy do sympatycznych i podobno jest efektem jakiejś nieuczciwej transakcji. Wypchane papierosami kieszenie często powodują problemy, ale Boban nie zna innego życia. Wszędzie nosi ze sobą broń, święcie wierząc, że jeśli sprawy nie rozwiąże \"fajka pokoju\", to zawsze pozostaje niezawodna kula. \"W czasie wojny szmuglowałem, no to co miałbym w czasie wojny robić? Macie szczęście, że wam generał wszystkich faj nie wykupił. Ja mam najlepsze w mieście, no i taniej się nie da\" - mówi z dumą, prezentując resztki swojego towaru.",
-        rule: "Możemy kupić od niego paczkę papierosów (patrz Dziennik: HANDEL) za żetony o wartości 5. Prowizja: 0. // PACZKA PAPIEROSÓW: Zapisz \"Paczka Papierosów, s3, I I I\" na Pustym żetonie i połóż go na Stosie Znalezisk. Traktuj go jak zielony żeton o wartości 6 za każdą kreskę i wadze 0. W dowolnym momencie możesz skreślić 1 kreskę, aby dodać 6 żetonów Papierosów. Gdy skreślisz ostatnią kreskę, usuń ten żeton z gry.",
+        rule: "Możemy kupić od niego paczkę papierosów (patrz Dziennik: HANDEL) za żetony o wartości 5. Prowizja: 0. PACZKA PAPIEROSÓW: Zapisz \"Paczka Papierosów, s3, I I I\" na Pustym żetonie i połóż go na Stosie Znalezisk. Traktuj go jak zielony żeton o wartości 6 za każdą kreskę i wadze 0. W dowolnym momencie możesz skreślić 1 kreskę, aby dodać 6 żetonów Papierosów. Gdy skreślisz ostatnią kreskę, usuń ten żeton z gry.",
         show1: true,
         transText1: "Jeśli kupiliśmy paczkę papierosów",
         changeTo1: 68,

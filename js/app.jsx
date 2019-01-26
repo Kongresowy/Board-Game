@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter, HashRouter, Route, Link, NavLink, Switch} from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Link, NavLink, Switch } from "react-router-dom";
 import KanalyScripts from './data.js';
 
 class Trans extends React.Component {
@@ -52,7 +52,6 @@ class MainContent extends React.Component {
         });
     };
     changeClick = (paramFromChildren) => {
-        // console.log(paramFromChildren);
         this.setState({
             itemDetail: this.state.scripts[paramFromChildren - 1],
         });
@@ -80,7 +79,6 @@ class MainContent extends React.Component {
                     <Trans show={this.state.itemDetail.show2} changeNum={this.state.itemDetail.changeTo2} clickMethod={this.changeClick} transText={this.state.itemDetail.transText2} />
                     <Trans show={this.state.itemDetail.show3} changeNum={this.state.itemDetail.changeTo3} clickMethod={this.changeClick} transText={this.state.itemDetail.transText3} />
                     <div className="trans-div" onClick={this.resetClick}>{this.state.itemDetail.reset}</div>
-                    <Link to="/menu">WRÓĆ DO MENU</Link>
                 </div>
             );
         }
@@ -99,12 +97,12 @@ class MainContentPartI extends React.Component {
 
 class Rules extends React.Component {
     render() {
-        return(
+        return (
             <div className="rules">
                 <h2>OMÓWIENIE ZASAD</h2>
                 <p>Reguły znajdujące się na planszy mogą modyfikować reguły znajdujące się w Dzienniku lub instrukcji rozszerzenia. Reguły znajdujące się na kartach mogą modyfikować reguły planszy, Dziennika i instrukcji rozszerzenia, zaś reguły znajdujące się w skryptach lub na arkuszach Scenariuszy mogą modyfikować wszystkie wcześniejsze.</p>
                 <p>Gdy kilka reguł mówi o tym, by wykonać jakąś czynność w tym samym momencie (np. na początku fazy X), wtedy sami decydujecie o kolejności rozpatrzenia tych poleceń.</p>
-                <p><b>This War of Mine: Gra Planszowa</b> to duża, skomplikowana i rozbudowana gra. Z pewnością wystąpią czasem sytuacje nieopisane dokładnie przez reguły i będziecie mieli wątpliwości, których nie wozwieją nawet skrypty FAQ. W tych miejscach kierujcie się rozsądkiem i zawsze wybierajcie interpretację możliwie najlepiej oddającą to, jak wyglądałoby to w realnym świecie. Zachęcamy również do zapoznania się z regularnie aktualizowanym dokumentem FAQ do pobrania ze strony wydawnictwa:</p>
+                <p><b>This War of Mine: Gra Planszowa</b> to duża, skomplikowana i rozbudowana gra. Z pewnością wystąpią czasem sytuacje nieopisane dokładnie przez reguły i będziecie mieli wątpliwości, których nie rozwieją nawet skrypty FAQ. W tych miejscach kierujcie się rozsądkiem i zawsze wybierajcie interpretację możliwie najlepiej oddającą to, jak wyglądałoby to w realnym świecie. Zachęcamy również do zapoznania się z regularnie aktualizowanym dokumentem FAQ do pobrania ze strony wydawnictwa:</p>
                 <p>www.galakta.pl/this-war-of-mine-gra-planszowa</p>
                 <p>Pamiętajcie jednak, że wiele z reguł gry jest ukrytych i odnajdziecie je dopiero w trakcie rozgrywki. Ponadto niektóre z reguł wydadzą się wam na początku mało znaczące, a ich skutecznego używania nauczycie się dopiero wraz z rosnącym doświadczeniem. To stopniowe poznawanie strategii i ukrytych mechanizmów rządzących światem gry jest również częścią rozgrywki.</p>
                 <h3>JAK UŻYWAĆ KRONIK WOJENNYCH I</h3>
@@ -137,7 +135,7 @@ class Rules extends React.Component {
 
 class Menu extends React.Component {
     render() {
-        return(
+        return (
             <div className="menu">
                 <Link to="/scripts">CZĘŚĆ I: KANAŁY</Link>
                 <Link to="/rules">OMÓWIENIE ZASAD</Link>
@@ -172,18 +170,3 @@ class App extends React.Component {
 document.addEventListener("DOMContentLoaded", function () {
     ReactDOM.render(<App />, document.getElementById("root"));
 });
-
-// return (
-//     <Route render={({location}) => (
-//         <TransitionGroup>
-//             <CSSTransition key={location.pathname.split("/")[1] || "/"} timeout={{ enter: 1000, exit: 50 }} classNames="fade">
-//                 <Switch location={location}>
-//                     <Route exact path="/" component={FirstPage} />
-//                     <Route path="/projects" component={SecondPage} />
-//                     <Route path="/contact" component={ThirdPage} />
-//                     <Route component={NotFound} />
-//                 </Switch>
-//             </CSSTransition>
-//         </TransitionGroup>
-//     )} /> 
-// );

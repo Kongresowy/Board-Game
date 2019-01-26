@@ -5,13 +5,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'robotoregular';
-  src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -63,12 +56,11 @@ body {
 .main-title a span {
   font-family: 'oswaldregular', 'oswald', sans-serif;
   font-size: 3.5em;
-  color: whitesmoke;
+  color: black;
   letter-spacing: -2px;
   line-height: 1.1em;
   text-align: center;
   width: 400px;
-  -webkit-text-stroke: 1px black;
 }
 
 .menu {
@@ -90,17 +82,15 @@ body {
 }
 
 .menu a {
-  text-decoration: none;
   font-family: 'oswaldregular', 'oswald', sans-serif;
   font-size: 2.5em;
-  color: whitesmoke;
+  color: black;
   letter-spacing: -1px;
-  -webkit-text-stroke: 1px black;
   margin-bottom: 2vh;
 }
 
 .menu a:hover {
-  color: black;
+  font-weight: 700;
 }
 
 .rules {
@@ -117,37 +107,26 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: 'oswaldregular', 'oswald', sans-serif;
 }
 
 .rules h2 {
-  font-family: 'oswaldregular', 'oswald', sans-serif;
   font-size: 2.5em;
-  color: whitesmoke;
-  -webkit-text-stroke: 1px black;
+  color: black;
   margin-bottom: 2vh;
 }
 
 .rules h3 {
-  font-family: 'oswaldregular', 'oswald', sans-serif;
   font-size: 2em;
-  color: whitesmoke;
-  -webkit-text-stroke: 1px black;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
+  color: black;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 .rules p {
-  font-family: 'robotoregular', 'roboto', sans-serif;
   font-size: 1.5em;
+  line-height: 35px;
   color: black;
-}
-
-.rules p:nth-last-of-type(2) {
-  margin-bottom: 1vh;
-}
-
-.rules p:nth-last-of-type(5) {
-  margin-bottom: 1vh;
 }
 
 .rules a {
@@ -156,23 +135,20 @@ body {
   font-family: 'oswaldregular', 'oswald', sans-serif;
   -ms-flex-item-align: end;
       align-self: flex-end;
-  text-decoration: none;
-  font-size: 2.5em;
-  color: whitesmoke;
-  -webkit-text-stroke: 1px black;
+  font-size: 2em;
+  color: black;
 }
 
 .rules a:hover {
-  color: black;
+  font-weight: 700;
 }
 
 .main-content-title {
   font-family: 'oswaldregular', 'oswald', sans-serif;
   font-size: 3em;
-  letter-spacing: -1px;
-  color: whitesmoke;
-  -webkit-text-stroke: 1px black;
-  padding-bottom: 5vh;
+  font-weight: 700;
+  color: black;
+  padding-bottom: 4vh;
 }
 
 .input-class {
@@ -196,9 +172,9 @@ body {
 
 .input-class h2 {
   font-size: 2em;
-  color: whitesmoke;
-  -webkit-text-stroke: 1px black;
-  margin-bottom: 2vh;
+  color: black;
+  font-weight: 300;
+  margin-bottom: 1vh;
 }
 
 .input-class form {
@@ -231,26 +207,22 @@ body {
 }
 
 .input-class a {
-  padding-right: 10vw;
+  padding-right: 5vw;
   padding-bottom: 5vh;
   position: absolute;
   bottom: 0;
   right: 0;
-  text-decoration: none;
-  font-size: 2.5em;
-  color: whitesmoke;
-  -webkit-text-stroke: 1px black;
+  font-size: 2em;
+  color: black;
 }
 
 .input-class a:hover {
-  color: black;
+  font-weight: 700;
 }
 
 .script-class {
   height: 100vh;
   width: 100%;
-  padding-left: 10vw;
-  padding-right: 10vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -276,16 +248,20 @@ body {
 }
 
 .script-class p {
-  width: 50vw;
-  font-size: 1.5em;
+  width: 90vw;
+  font-size: 1.2em;
+  line-height: 30px;
   color: black;
   margin-bottom: 2vh;
+  text-align: center;
 }
 
 .script-class .trans-div {
+  text-decoration: underline;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: black;
+  margin-bottom: 2vh;
   cursor: pointer;
 }
 
@@ -294,71 +270,81 @@ body {
 }
 
 .script-class a {
-  padding-right: 10vw;
+  padding-right: 5vw;
   padding-bottom: 5vh;
   position: absolute;
   bottom: 0;
   right: 0;
-  text-decoration: none;
-  font-size: 2.5em;
-  color: whitesmoke;
-  -webkit-text-stroke: 1px black;
-}
-
-.script-class a:hover {
+  font-size: 2em;
   color: black;
 }
 
-@media (max-width: 1024px) {
+.script-class a:hover {
+  font-weight: 700;
+}
+
+@media (max-width: 1370px) {
   .rules {
     padding-left: 5vw;
     padding-right: 5vw;
   }
   .rules h2 {
     font-size: 2em;
-    color: black;
-    -webkit-text-stroke: 0;
   }
   .rules h3 {
-    font-size: 1em;
-    color: black;
-    -webkit-text-stroke: 0;
+    font-size: 1.5em;
   }
   .rules p {
     font-size: 1em;
+    line-height: 25px;
   }
   .rules a {
-    color: white;
     font-size: 1.8em;
-    margin-bottom: 2vh;
   }
   .input-class a {
     font-size: 1.8em;
-    padding-right: 5vw;
-    padding-bottom: 2vh;
   }
-  .script-class {
-    padding-left: 2vw;
-    padding-right: 2vw;
+  .script-class h2 {
+    font-size: 1.5em;
+  }
+  .script-class p {
+    font-size: 1em;
+    line-height: 25px;
+  }
+  .script-class .trans-div {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .rules h2 {
+    font-size: 1.5em;
+  }
+  .rules h3 {
+    font-size: 1.2em;
+  }
+  .rules p {
+    font-size: 0.8em;
+    line-height: 20px;
   }
   .script-class h2 {
     font-size: 1.3em;
+    margin-top: 1vh;
   }
   .script-class p {
-    width: 100%;
     font-size: 0.8em;
+    line-height: 17px;
+    margin-bottom: 1vh;
   }
   .script-class .trans-div {
     font-size: 0.8em;
-    padding-bottom: 2vh;
+    margin-bottom: 2vh;
   }
-  .script-class a {
-    padding-right: 2vw;
-    padding-bottom: 2vh;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    font-size: 1.5em;
+  .script-class .trans-div:not(:hover) {
+    font-weight: 700;
+  }
+  a:not(:hover) {
+    font-weight: 700;
   }
 }
 /*# sourceMappingURL=main.css.map */
