@@ -257,6 +257,7 @@ body {
 }
 
 .script-class .trans-div {
+  width: 90vw;
   text-decoration: underline;
   text-align: center;
   font-size: 1.2em;
@@ -326,6 +327,15 @@ body {
   .rules p {
     font-size: 0.8em;
     line-height: 20px;
+  }
+  .main-content-title {
+    font-size: 2.5em;
+  }
+  .input-class h2 {
+    font-size: 1.5em;
+  }
+  .input-class a {
+    position: fixed;
   }
   .script-class h2 {
     font-size: 1.3em;
