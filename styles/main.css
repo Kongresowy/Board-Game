@@ -257,12 +257,17 @@ body {
 }
 
 .script-class .trans-div {
-  width: 90vw;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   text-decoration: underline;
   text-align: center;
   font-size: 1.2em;
+  line-height: 30px;
   color: black;
   margin-bottom: 2vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
   cursor: pointer;
 }
 
@@ -314,6 +319,7 @@ body {
   }
   .script-class .trans-div {
     font-size: 1em;
+    line-height: 25px;
   }
 }
 
@@ -334,9 +340,6 @@ body {
   .input-class h2 {
     font-size: 1.5em;
   }
-  .input-class a {
-    position: fixed;
-  }
   .script-class h2 {
     font-size: 1.3em;
     margin-top: 1vh;
@@ -348,6 +351,7 @@ body {
   }
   .script-class .trans-div {
     font-size: 0.8em;
+    line-height: 17px;
     margin-bottom: 2vh;
   }
   .script-class .trans-div:not(:hover) {

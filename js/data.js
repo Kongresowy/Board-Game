@@ -687,7 +687,7 @@ module.exports = [
         show3: false,
         transText3: "",
         changeTo3: 0,
-        reset: "Skok do rzeki byłby szaleństwem, lepiej wracajmy - PRZERWIJ EKSPLORAJCĘ KANAŁÓW I WRÓĆ DO GRY"
+        reset: "Skok do rzeki byłby szaleństwem, lepiej wracajmy - PRZERWIJ EKSPLORACJĘ KANAŁÓW I WRÓĆ DO GRY"
     },
     {
         id: "s47",
