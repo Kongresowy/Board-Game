@@ -1320,7 +1320,7 @@ module.exports = [
     },
     {
         id: "s89",
-        text: "W pośpiechu pochylamy się nad ciałami. obserwując z niepokojem wylot tunelu. Czujemy się jak hieny cmentarne, chociaż próbujemy się pocieszać, że zmarłym ich bagaże do niczego już się nie przydadzą. Marna pociecha. Zabieramy ze sobą wszystko, co zwraca naszą uwagę i co jesteśmy w stanie unieść. Gdy słyszymy szmer kroków gdzieś w ciemności przed nami, natychmiast wycofujemy sie, by poszukać innej drogi.",
+        text: "W pośpiechu pochylamy się nad ciałami, obserwując z niepokojem wylot tunelu. Czujemy się jak hieny cmentarne, chociaż próbujemy się pocieszać, że zmarłym ich bagaże do niczego już się nie przydadzą. Marna pociecha. Zabieramy ze sobą wszystko, co zwraca naszą uwagę i co jesteśmy w stanie unieść. Gdy słyszymy szmer kroków gdzieś w ciemności przed nami, natychmiast wycofujemy sie, by poszukać innej drogi.",
         rule: "Dodaj 1 Konserwę, 4 Papierosy, 1 Uszkodzony Pistolet, 2x Biżuterię, 2 Części Elektryczne, 2 Części Mechaniczne, 2 Części Broni i 1 Nóż do Stosu Znalezisk.",
         show1: false,
         transText1: "",
@@ -1335,7 +1335,7 @@ module.exports = [
     },
     {
         id: "s90",
-        text: "To był potworny moment. palce przez sekundę próbowały uczepić się śliskich kamieni, stopy bezskutecznie szukały oparcia. Przez kilka długich sekund czułeś, że ześlizgujesz się w dół i nagle już tylko bezwładny lot. Potworny ból został w końcu zduszony przez kotłującą się wodę... Na zawsze.",
+        text: "To był potworny moment. Palce przez sekundę próbowały uczepić się śliskich kamieni, stopy bezskutecznie szukały oparcia. Przez kilka długich sekund czułeś, że ześlizgujesz się w dół i nagle już tylko bezwładny lot. Potworny ból został w końcu zduszony przez kotłującą się wodę... Na zawsze.",
         rule: "Usuń z gry Postać, która spadła.",
         show1: false,
         transText1: "",

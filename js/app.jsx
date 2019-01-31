@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {HashRouter, Route, Link, Switch} from "react-router-dom";
+import { HashRouter, Route, Link, Switch } from "react-router-dom";
 import KanalyScripts from './data.js';
 
 class Trans extends React.Component {
