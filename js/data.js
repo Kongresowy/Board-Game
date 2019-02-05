@@ -3240,7 +3240,7 @@ module.exports = [
     },
     {
         id: "s217",
-        text: "Wymieniamy szybkie porozumiewawcze spojrzenie i błyskamy im o oczach latarkami, po czym puszczamy się pędem w ciemny korytarz. Kilka sekund euforii - udało się, nie strzelają! A potem ogłusza nas huk maszynowego ognia. Dopiero za załomem możemy sprawdzić, czy wszyscy są cali.",
+        text: "Wymieniamy szybkie porozumiewawcze spojrzenie i błyskamy im po oczach latarkami, po czym puszczamy się pędem w ciemny korytarz. Kilka sekund euforii - udało się, nie strzelają! A potem ogłusza nas huk maszynowego ognia. Dopiero za załomem możemy sprawdzić, czy wszyscy są cali.",
         rule: "Rzuć Czarną Kością za każdą z obecnych tu Postaci (Postać może użyć Sprawności). Wynik 1 = usuń daną Postać z gry. Wynik 2-3 = podnieś Rany danej Postaci o 2. Wynik 4-5 = podnieś Rany danej Postaci o 1. Wynik 6-10 = nic się nie dzieje.",
         show1: false,
         transText1: "",
